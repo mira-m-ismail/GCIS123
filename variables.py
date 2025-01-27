@@ -25,6 +25,9 @@ def prompt_print():
     print("product: "+str(float(num1*num2)))
     print("quotient: "+str(float(num1/num2)))
 
-variables_practice()
-expressions_practice()
-prompt_print()
+def main():
+    variables_practice()
+    expressions_practice()
+    prompt_print()
+
+main()
